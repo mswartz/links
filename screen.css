@@ -1,18 +1,17 @@
 body {
 	background-color: #faf8eb;
 	font-family: 'Source Sans Pro', sans-serif;
-	padding: 30px 0;
 }
 
 .wrapper {
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 30px auto;
 }
 
 .main-text {
 	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 16px;
+	line-height: 22px;
 	margin: 30px 0 0 0;
 }
 
@@ -21,9 +20,7 @@ body {
 	display: block;
 	width: 30px;
 	height: 60px;
-	/*border-radius: 100px;*/
 	color: #000; 
-	/*background-color: #ebe8d1;*/
 	border-bottom: 15px solid #ebe8d1;
 	font-size: 100px; 
 	line-height: 60px; 
@@ -34,18 +31,36 @@ body {
 
 h1 {
 	font-weight: 900;
-	font-size: 72px;
-	line-height: 60px;
+	font-size: 42px;
+	line-height: 38px;
 }
+
 
 h3 {
 	font-weight: 200;
-	font-size: 30px;
+	font-size: 24px;
 }
 
 h4 {
 	font-size: 26px;
 	margin: 0 0 20px 0;
+}
+
+
+@media (min-width:500px){
+	h1 {
+		font-size: 72px;
+		line-height: 60px;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+
+	.main-text {
+		font-size: 20px;
+		line-height: 30px;
+	}
 }
 
 a {
