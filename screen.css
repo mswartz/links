@@ -52,7 +52,7 @@ h4 {
 	.wrapper {
 		padding: 0;
 	}
-	
+
 	h1 {
 		font-size: 72px;
 		line-height: 60px;
@@ -70,6 +70,10 @@ a {
 
 a:hover {
 	color: #d43d02;
+}
+
+p {
+	margin-bottom: 25px;
 }
 
 .byline {
