@@ -6,6 +6,7 @@ body {
 .wrapper {
 	max-width: 600px;
 	margin: 30px auto;
+	padding: 15px;
 }
 
 .main-text {
@@ -48,6 +49,10 @@ h4 {
 
 
 @media (min-width:500px){
+	.wrapper {
+		padding: 0;
+	}
+	
 	h1 {
 		font-size: 72px;
 		line-height: 60px;
