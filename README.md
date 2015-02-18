@@ -7,7 +7,7 @@ I really enjoyed this Medium post titled ["Links Are Broken" by Sebastian Kerste
 
 I had a very very simple idea. Probably too simple, it's almost embarassing. I almost didn't put this out there, but it was fun to make and design (there are more lines of CSS than anything).
 
-_ The idea is to just scrape a body of text for the links, and add them to a module at the end (or somewhere) to collect them all. _
+*The idea is to just scrape a body of text for the links, and add them to a module at the end (or somewhere) to collect them all.*
 
 I just wrote a few lines of JS to look at `.main-text` and find all the links. It stores them in an array, and then poops them into the `.links` div below. [You can see the blob of the JS here.](https://github.com/mswartz/links/blob/master/app.js)
 
