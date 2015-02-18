@@ -1,1 +1,50 @@
-New GitHub page
+<html>
+	<head>
+		<title>A simple study of how we use links by Mike Swartz</title>
+		<meta name="viewport" content="initial-scale=1">
+		<link rel="stylesheet" href="screen.css"/>
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+	<div class="wrapper">
+		
+			<h1>A simple study of how we use links</h1>
+			<h3>An experiment in non-contextual linking</h3>
+			<p class="byline">By <a href="http://www.twitter.com/m_swartz">Mike Swartz</a></p>
+			<div class="main-text">
+			<p><span class="dropcap">I</span> really enjoyed this Medium post titled <a href="https://medium.com/de-correspondent/links-are-broken-these-three-alternatives-have-improved-our-readers-reading-experience-796c302c8930">"Links Are Broken" by Sebastien Kersten</a> of <a href="https://decorrespondent.nl/home"><i>De Correspondent</i>, a publication in the Netherlands</a>. It was smart, and showed some of the interesting things they're doing at that publication. I was thinking about their solutions (which are all really neat), and I had an idea for a simple link mechanism. I totally agreed with the guy that links can be very distracting mid-text. But is there a simple way around this without adding too much more UI?</p>
+			<p>I had a very very simple idea. Probably too simple, it's almost embarassing. I almost didn't put this out there, but it was fun to make and design (there are more lines of CSS than anything).</p>
+			<p><i>The idea is to just scrape a body of text for the links, and add them to a module at the end (or somewhere) to collect them all.</i></p>
+			<p>I just wrote a few lines of JS to look at <code>.main-text</code> and find all the links. It stores them in an array, and then poops them into the <code>.links</code> div below. <a href="https://github.com/mswartz/links/blob/master/app.js">You can see the blob of the JS here.</a></p>
+			<p>Also, did you notice that all the links have very descriptive text? It makes for more pleasing footnotes when they're all gathered, instead of a bunch of "here" and "click here." It's a good habit, <a href="http://blog.silktide.com/2013/01/i-thought-title-text-improved-accessibility-i-was-wrong/">adding more descriptive text to links improves accessibility.</a></p>
+			<p>That's it! I'm sure you could do all kinds of interesting stuff with something like this, but this is a start. If you're interested in seeing more, <a href="http://www.github.com/mswartz/links">check out the Links repo on GitHub.</a></p>
+		</div><!-- main-text-->
+
+	<div class="link-mod">
+		<h4>Links mentioned in this text</h4>
+		<ol class="links">
+			
+		</ol>
+	</div><!-- end-link-mod -->
+
+	<div class="footnote">
+		<p>Mike spends his days at <a href="http://www.upstatement.com">Upstatement, a Boston design firm.</a></p>
+	</div>
+	</div><!-- wrapper -->
+	<script type="text/javascript" src="app.js"></script>
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1051809-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</body>
+</html>
+>>>>>>> 020eb007a8c0da5ca6b6a050ea1775eafb85dff3
