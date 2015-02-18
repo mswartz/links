@@ -3,7 +3,7 @@
 
 Read this on gh-pages: [A Simple Study of How We Use Links](http://mswartz.github.io/links/)
 
-I really enjoyed this Medium post titled ["Links Are Broken" by Sebastien Kersten](https://medium.com/de-correspondent/links-are-broken-these-three-alternatives-have-improved-our-readers-reading-experience-796c302c8930) of [De Correspondent, a publication in the Netherlands](https://decorrespondent.nl/home). It was smart, and showed some of the interesting things they're doing at that publication. I was thinking about their solutions (which are all really neat), and I had an idea for a simple link mechanism. I totally agreed with the guy that links can be very distracting mid-text. But is there a simple way around this without adding too much more UI?
+I really enjoyed this Medium post titled ["Links Are Broken" by Sebastian Kersten](https://medium.com/de-correspondent/links-are-broken-these-three-alternatives-have-improved-our-readers-reading-experience-796c302c8930) of [De Correspondent, a publication in the Netherlands](https://decorrespondent.nl/home). It was smart, and showed some of the interesting things they're doing at that publication. I was thinking about their solutions (which are all really neat), and I had an idea for a simple link mechanism. I totally agreed with the guy that links can be very distracting mid-text. But is there a simple way around this without adding too much more UI?
 
 I had a very very simple idea. Probably too simple, it's almost embarassing. I almost didn't put this out there, but it was fun to make and design (there are more lines of CSS than anything).
 
